@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ticktactoe/static/css/main.020377e9.chunk.css",
-    "main.js": "/ticktactoe/static/js/main.c312df7f.chunk.js",
-    "main.js.map": "/ticktactoe/static/js/main.c312df7f.chunk.js.map",
-    "runtime-main.js": "/ticktactoe/static/js/runtime-main.488a3090.js",
-    "runtime-main.js.map": "/ticktactoe/static/js/runtime-main.488a3090.js.map",
-    "static/js/2.757f6bbc.chunk.js": "/ticktactoe/static/js/2.757f6bbc.chunk.js",
-    "static/js/2.757f6bbc.chunk.js.map": "/ticktactoe/static/js/2.757f6bbc.chunk.js.map",
-    "index.html": "/ticktactoe/index.html",
-    "precache-manifest.23299f28101bc89822501f8e1d2465d7.js": "/ticktactoe/precache-manifest.23299f28101bc89822501f8e1d2465d7.js",
-    "service-worker.js": "/ticktactoe/service-worker.js",
-    "static/css/main.020377e9.chunk.css.map": "/ticktactoe/static/css/main.020377e9.chunk.css.map",
-    "static/js/2.757f6bbc.chunk.js.LICENSE.txt": "/ticktactoe/static/js/2.757f6bbc.chunk.js.LICENSE.txt",
-    "static/media/circle.a793a851.svg": "/ticktactoe/static/media/circle.a793a851.svg",
-    "static/media/cross.318c456a.svg": "/ticktactoe/static/media/cross.318c456a.svg"
+    "main.css": "/tictactoe/static/css/main.020377e9.chunk.css",
+    "main.js": "/tictactoe/static/js/main.4cce4a7b.chunk.js",
+    "main.js.map": "/tictactoe/static/js/main.4cce4a7b.chunk.js.map",
+    "runtime-main.js": "/tictactoe/static/js/runtime-main.57baa19c.js",
+    "runtime-main.js.map": "/tictactoe/static/js/runtime-main.57baa19c.js.map",
+    "static/js/2.757f6bbc.chunk.js": "/tictactoe/static/js/2.757f6bbc.chunk.js",
+    "static/js/2.757f6bbc.chunk.js.map": "/tictactoe/static/js/2.757f6bbc.chunk.js.map",
+    "index.html": "/tictactoe/index.html",
+    "precache-manifest.49dce8090e79d587144ba4abd0b62e92.js": "/tictactoe/precache-manifest.49dce8090e79d587144ba4abd0b62e92.js",
+    "service-worker.js": "/tictactoe/service-worker.js",
+    "static/css/main.020377e9.chunk.css.map": "/tictactoe/static/css/main.020377e9.chunk.css.map",
+    "static/js/2.757f6bbc.chunk.js.LICENSE.txt": "/tictactoe/static/js/2.757f6bbc.chunk.js.LICENSE.txt",
+    "static/media/circle.a793a851.svg": "/tictactoe/static/media/circle.a793a851.svg",
+    "static/media/cross.318c456a.svg": "/tictactoe/static/media/cross.318c456a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.488a3090.js",
+    "static/js/runtime-main.57baa19c.js",
     "static/js/2.757f6bbc.chunk.js",
     "static/css/main.020377e9.chunk.css",
-    "static/js/main.c312df7f.chunk.js"
+    "static/js/main.4cce4a7b.chunk.js"
   ]
 }
