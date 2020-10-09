@@ -19,7 +19,7 @@ export const flipMajorDiagonal = (m) => {
 export const getMajorDiagonals = (m) => {
     return [
         [m[0][0], m[1][1], m[2][2]],
-        [m[2][2], m[1][1], m[2][2]]
+        [m[2][2], m[1][1], m[0][0]]
     ];
 };
 
