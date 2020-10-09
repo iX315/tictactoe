@@ -9,9 +9,9 @@ const Cross = () => <CrossSVG />;
 
 const valuesEnum = [<></>, <Circle />, <Cross />];
 const endGameMsgEnum = {
-    "even": "game over - even",
-    "pXwin": "game over - X wins",
-    "pOwin": "game over - O wins"
+    "even": "GAME OVER - even",
+    "pXwin": "GAME OVER - X wins",
+    "pOwin": "GAME OVER - O wins"
 };
 
 const Grid = ({ children }) => <div className="grid">{children}</div>;
@@ -30,7 +30,8 @@ const Cells = ({ values, updateValue }) => {
 const Playground = () => {
 	const [values, setValues] = useState(Array(9).fill(0));
 	const [player, setPlayer] = useState(1);
-	const [endGame, setEndGame] = useState(false);
+    const [endGame, setEndGame] = useState(false);
+    const [showConfetti, setShowConfetti] = useState(false);
 
 	const updateValue = (index) => {
 		if (values[index] === 0) {
@@ -51,9 +52,11 @@ const Playground = () => {
         let p2 = (v) => v === 2
         let check = e => {
             if (e.every(notZero) && e.every(p1)) {
+                setShowConfetti(true)
                 return setEndGame(endGameMsgEnum.pOwin);
             }
             if (e.every(notZero) && e.every(p2)) {
+                setShowConfetti(true)
                 return setEndGame(endGameMsgEnum.pXwin);
             }
         }
@@ -67,7 +70,7 @@ const Playground = () => {
 			<h1>TicTacToe</h1>
 			{endGame ? (
 				<>
-                    <Confetti />
+                    {showConfetti && <Confetti />}
                     <h2>{endGame}</h2>
                     <button onClick={() => document.location.reload()}>Retry</button>
                 </>

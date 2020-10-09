@@ -16,19 +16,22 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .cell {
-    min-height: 100px;
-    min-width: 100px;
+    height: 100px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .cell svg {
-    height: 90%;
-    width: 90%;
+    height: 90px;
+    width: 90px;
 }
 .cell._1,
 .cell._7 {
